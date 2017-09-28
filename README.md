@@ -5,7 +5,7 @@ https://www.tensorflow.org/serving/serving_basic
 ## Server:
 1. use saved_model_builder to save model
 2. Install tensorflow-serving-api:
-	# pip install tensorflow-serving-api
+	**pip install tensorflow-serving-api**
 3. saved model to /tmp/mnist_model
 	python tensorflow_serving/example/mnist_saved_model.py /tmp/mnist_model
 4. load model using tensorflow_model_server:

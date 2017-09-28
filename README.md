@@ -1,8 +1,9 @@
 # TensorFlow_Service
 Set up web service in TensorFlow
+https://www.tensorflow.org/serving/serving_basic
 
 ## Server:
-	1. use saved_model_builder to save model
+1. use saved_model_builder to save model
 	2. Install tensorflow-serving-api:
 		command: pip install tensorflow-serving-api
 	3. saved model to /tmp/mnist_model
